@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+/*GLOBAL MENU*/
+body {
+   
+    width: 100vw;
+    height: 56.25vw;
+    background-size: 100%;
+   
+}
+
+#text{font-family: 'Open Sans', sans-serif;color: black; font-size: 3vw;-webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;margin-left: 2vw; margin-top: 0.5vw}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 41.7vw;padding: 0; margin-left: 2.5vw; 
+}
+
+#okregi {
+ display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 40vw;
+   
+}
+
+#kola {
+ display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 40vw; margin-top: 1.01vw; margin-left: -2vw
+   
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.35vw;
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; margin-right: 2vw
+}
+
+#menu {
+    width: 40vw
+}
+
+.circle {
+    width: 4.8vw;
+    height: 4.8vw;
+background-size: 100%;
+
+}
+
+
+#kolo {
+    width: 4.8vw;
+    height: 4.8vw;
+   
+    background-size: 100%;
+   }
+
+#kolo2 {
+    width: 4.8vw;
+    height: 4.8vw;
+    
+    background-size: 100%;
+   }
+
+#kolo3 {
+    width: 4.8vw;
+    height: 4.8vw;
+   
+    background-size: 100%;
+  }
+
+
+
+
+
+.right {
+    animation: right .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes right {
+    to {
+        transform: translateX(2vw);
+    }
+}
+
+.diagonal {
+    animation: diagonal .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes diagonal {
+    to {
+        transform: translate(2vw, -1vw)
+    }
+}
+
+
+.rightback {
+    animation: rightback .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rightback {
+    from {
+        transform: translateX(2vw);
+    }
+
+    to {
+        transform: translateY(0vw);
+    }
+}
+
+.diagonalback {
+    animation: diagonalback .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes diagonalback {
+    from {
+        transform: translate(2vw, -1vw);
+    }
+
+    to {
+        transform: translate(0vw, 0vw);
+    }
+}

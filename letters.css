@@ -1,0 +1,83 @@
+@import url("https://use.typekit.net/zku4njy.css");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100&display=swap');
+
+ul {
+    justify-self: center width: 75vw;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none
+}
+
+body {
+    margin: 0;
+}
+#column1 { grid-area: col1;}
+#column2 {grid-area: col2;}
+
+main{display: grid;
+    grid-template-areas: "col1 col2";
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    column-gap: 3vw; background-color: white;}
+
+header{background-color:white;}
+
+li {
+    margin-right: ;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 1.8vw;
+}
+
+#title {
+    font-family: "badaboom-pro", sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    font-size: 2.9vw;
+    margin-top: -0.3vw
+}
+
+a:link {
+    text-decoration: none;
+    color: #93A888;
+}
+
+a:visited {
+    color: #93A888;
+}
+
+a:hover {
+    color: #93A888;
+}
+
+a:active {
+    color: #93A888;
+}
+img {
+    max-width: 100%;
+}
+p {
+    font-family: 'Be Vietnam', sans-serif;
+    text-align: center;
+    color: #93A888;
+    font-size: 1.35vw; padding: 10px;
+}
+
+
+
+
+
+#ig {background-size: 100%;
+    width: 4vw;
+    height: 4vw;cursor: pointer; margin-top: 0.5vw;}
+#fb {background-size: 100%;
+    width: 4vw;
+    height: 4vw;cursor: pointer; margin-top: 0.5vw}
+
+footer {display: flex;
+    justify-content: flex-end; margin-right: 4.5vw}

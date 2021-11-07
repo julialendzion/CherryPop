@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #93a888;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-1" x="13.49" y="10.3" width="72" height="72" rx="19.1"/>
+    <rect class="cls-2" x="35.49" y="33.3" width="27" height="27" rx="5.37"/>
+  </g>
+</svg>
